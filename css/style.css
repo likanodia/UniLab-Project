@@ -32,25 +32,25 @@ body{
     width: 100%;
 }
 .img-div{
-    background-image: url(../img/sect1-img.png);
-    max-width: 840px;
+    max-width: 750px;
     width: 100%;
     height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
+.sec1-img{
+    max-width: 700px;
+    width: 100%;
+}
 .img-text{
-    max-width:600px;
+    max-width:500px;
     width: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 36%;
+    left: 44%;
     transform: translate(-50%,-50%);
     color: white;
-    padding-right: 50px;
     line-height: 25px;
-
+    font-size: 16px;
 }
 .title{
     font-weight: 900;
@@ -72,15 +72,18 @@ body{
     cursor: pointer;
 }
 .section-1{
-    max-width: 1500px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     background-color: white;
+    flex-wrap: wrap;
 }
 .text-div{
-padding: 100px;
-line-height: 20px;
+    padding: 50px;
+    line-height: 20px;
+    max-width: 500px;
+    width: 100%;
 }
 .sec1-title{
     color: #FA6980;
@@ -94,8 +97,8 @@ line-height: 20px;
 .sec1-div1{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
-    padding: 20px;
+    /* margin-top: 15px;
+    padding: 20px; */
 }
 .arrow-div{
     max-width: 50px;
@@ -132,7 +135,7 @@ line-height: 20px;
     line-height: 20px;
 }
 .sec1-title1{
-    margin:20px 0px ;
+    margin:10px 0px ;
 }
 .sect2-div{
     max-width:1200px ;
@@ -150,3 +153,61 @@ line-height: 20px;
     margin: 0 auto;
     padding: 30px 0;
 }
+
+/* section 3 */
+
+.sec3-img-div{
+    max-width: 750px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.sec3-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-weight: 800;
+}
+.sec3-img{
+    max-width: 750px;
+    width: 100%;
+}
+.sec3-text-div{
+    color: white;
+    position: absolute;
+    bottom:40px;
+    left: 20px;
+}
+.sec3-time{
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    justify-content: space-between;
+    color: #707070;
+}
+.underline{
+   text-decoration: underline;
+}
+.sec3-post{
+    max-width: 360px;
+    width: 100%;
+    border-radius: 15px;
+}
+.sec3-text{
+    padding: 20px;
+
+}
+.sec3-div{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.sec3-right-img{
+    max-width: 360px;
+    width: 100%;
+}
+
