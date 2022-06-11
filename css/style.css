@@ -72,6 +72,9 @@ body{
     cursor: pointer;
 }
 .section-1{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     background-color: white;
 }
@@ -91,6 +94,8 @@ line-height: 20px;
 .sec1-div1{
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
+    padding: 20px;
 }
 .arrow-div{
     max-width: 50px;
@@ -105,4 +110,43 @@ line-height: 20px;
     width: 100%;
     justify-content: space-between;
     margin-top: 10px;
+}
+
+/* section 2 */
+
+.sec2-title{
+    font-size: 24px;
+    font-weight: 900;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sec2-post{
+    max-width: 360px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+.sec2-text{
+    padding: 20px;
+    line-height: 20px;
+}
+.sec1-title1{
+    margin:20px 0px ;
+}
+.sect2-div{
+    max-width:1200px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.sec-title-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
 }
