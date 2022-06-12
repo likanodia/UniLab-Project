@@ -211,3 +211,76 @@ body{
     width: 100%;
 }
 
+/* page 2 */
+.line2{
+    max-width: 50px;
+    border: 1.5px solid #FA6980;
+    width: 100%;
+    border-radius: 2px;
+}
+.img-text2{
+    text-align: center;
+    max-width:500px;
+    width: 100%;
+    position: absolute;
+    top: 36%;
+    left: 44%;
+    transform: translate(-50%,-50%);
+    color: white;
+    line-height: 25px;
+    font-size: 16px;
+}
+.img-div2{
+    background-image: url("../img/page2-img1.png");
+    max-width: 550px;
+    height: 480px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.user2{
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+select,
+input{
+    margin: 0 auto;
+    color: #A6ADB4;
+    max-width: 350px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: 2 px solid #A6ADB4;
+    margin: 20px 0px
+}
+.form-div{
+    max-width: 550px;
+    width: 100%;
+    font-weight: 700;
+    padding: 80px;
+}
+.page2-sec1{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.home-div{
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
