@@ -10,6 +10,8 @@ body{
     align-items: center;
     padding: 20px;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
     z-index: 1;
@@ -29,29 +31,27 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 11px;
+    font-size: 14px;
 }
 .nav-bar{
     max-width: 400px;
     width: 100%;
 }
 .img-div{
-    max-width: 750px;
-    width: 100%;
-    height: 600px;
+    height: 500px;
     position: relative;
-    margin-top: 60px;
 }
 .sec1-img{
     max-width: 700px;
     width: 100%;
+    height: 500px;
 }
 .img-text{
     max-width:500px;
     width: 100%;
     position: absolute;
-    top: 36%;
-    left: 44%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
     color: white;
     line-height: 25px;
@@ -81,18 +81,14 @@ body{
 .section-1{
     max-width: 1400px;
     width: 100%;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
-    background-color: white;
-    flex-wrap: wrap;
 }
 .text-div{
     padding: 50px;
     line-height: 20px;
-    max-width: 500px;
-    width: 100%;
-    margin-top: 60px;
     font-size: 16px;
+    background-color: white;
 }
 .sec1-title{
     color: #FA6980;
@@ -141,6 +137,9 @@ body{
     border-radius: 15px;
     background-color: white;
 }
+.post-img{
+    width: 100%;
+}
 .sec2-text{
     padding: 20px;
     line-height: 20px;
@@ -154,7 +153,6 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    flex-wrap: wrap;
 }
 .sec-title-div{
     display: flex;
@@ -189,6 +187,7 @@ body{
     position: absolute;
     bottom:40px;
     left: 20px;
+
 }
 .sec3-time{
     display: flex;
@@ -215,8 +214,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    flex-wrap: wrap;
-}
+  }
 .sec3-right-img{
     max-width: 360px;
     width: 100%;
@@ -279,7 +277,6 @@ input{
     width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     background-color: white;
 }
 .home-div{
@@ -301,7 +298,6 @@ input{
 /* page 2 section 2 */
 .user-info-div{
     display: flex;
-    flex-wrap: wrap;
     max-width: 1100px;
     width: 100%;
     justify-content: space-between;
@@ -418,4 +414,20 @@ input{
 /* page3 server page*/
 .server-section{
     height: 500px;
+}
+
+/* burger */
+.menu-item{
+    width: 30px;
+    height: 4px;
+    background-color: #343638;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.menu-bar{
+    display: none;
+    position: absolute;
+    top:20px;
+    left:10px;  
 }

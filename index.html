@@ -26,7 +26,7 @@
         <div class="logo-div">
             <a class="logo-text" href="index.html">logo</a>
         </div>
-        <nav class="nav-bar">
+        <nav class="nav-bar" id="nav-bar">
             <ul class="ul-bar">
                 <li class="li"> <a class="nav-a active" href="index.html">home</a></li>
                 <li class="li"> <a class="nav-a" href="info.html">discovery</a></li>
@@ -37,6 +37,11 @@
                 </li>
             </ul>
         </nav>
+        <div class="menu-bar" id="menu-bar">
+            <div class="menu-item" id="menu-item1"></div>
+            <div class="menu-item" id="menu-item2"></div>
+            <div class="menu-item" id="menu-item3"></div>
+        </div>
     </header>
     <section class="section-1">
         <div class="img-div">
@@ -50,29 +55,31 @@
             </div>
         </div>
         <div class="text-div">
-             <div class="sec1-div1">
+            <div class="sec1-div1">
                 <h2 class="title">MORE NEWS</h2>
                 <div class="arrow-div">
                     <i class="fa-solid fa-chevron-left"></i>
                     <a href="info.html"><i class="fa-solid fa-chevron-right"></i></a> 
                 </div>
             </div>
-            <div class="sec1-div2">
-                <h3 class="sec1-title">TRAVEL</h3>
-                <h4 class="sec1-title1">Article title</h4>
-                <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-                <div class="time">
-                    <img src="img/time.png" alt="time-img">
-                    <p>2 min ago</p>
+            <div class="news-block">
+                <div class="sec1-div2">
+                    <h3 class="sec1-title">TRAVEL</h3>
+                    <h4 class="sec1-title1">Article title</h4>
+                    <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                    <div class="time">
+                        <img src="img/time.png" alt="time-img">
+                        <p>2 min ago</p>
+                    </div>
                 </div>
-            </div>
-            <div class="sec1-div3">
-                <h3 class="sec1-title">TECHNOLOGY</h3>
-                <h4 class="sec1-title1">Article title</h4>
-                <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
-                <div class="time">
-                    <img src="img/time.png" alt="time-img">
-                    <p>2 min ago</p>
+                <div class="sec1-div3">
+                    <h3 class="sec1-title">TECHNOLOGY</h3>
+                    <h4 class="sec1-title1">Article title</h4>
+                    <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat…</p>
+                    <div class="time">
+                        <img src="img/time.png" alt="time-img">
+                        <p>2 min ago</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,7 +94,7 @@
         </div>
         <div class="sect2-div">
             <div class="sec2-post">
-                <img src="img/sect2-img1.png" alt="sect2-img1">
+                <img class="post-img" src="img/sect2-img1.png" alt="sect2-img1">
                 <div class="sec2-text">
                     <h4 class="sec1-title1">Dolore magna aliqua</h4>
                     <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -98,7 +105,7 @@
                 </div>
             </div>
             <div class="sec2-post">
-                <img src="img/sect2-img2.png" alt="sect2-img2">
+                <img class="post-img" src="img/sect2-img2.png" alt="sect2-img2">
                 <div class="sec2-text">
                     <h4 class="sec1-title1">Morbi eleifend a libero</h4>
                     <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -109,7 +116,7 @@
                 </div>
             </div>  
             <div class="sec2-post">
-                <img src="img/sect2-img3.png" alt="sect2-img3">
+                <img class="post-img" src="img/sect2-img3.png" alt="sect2-img3">
                 <div class="sec2-text">
                     <h4 class="sec1-title1">Morbi eleifend a libero</h4>
                     <p class="sec1-text1">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -230,5 +237,8 @@
             </div>
         </div>
     </footer>
+    <script src="script.js">
+
+    </script>
 </body>
 </html>
