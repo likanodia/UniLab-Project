@@ -39,7 +39,7 @@
         display: flex;
     }
     .sect2-div{
-        flex-direction: column;
+        flex-direction: row;
     }
     .sec2-post:nth-child(3){
         display: none;
@@ -83,6 +83,9 @@
     }
     .footer-bar{
         display: none;
+    }
+    .sect2-div{
+        flex-direction: column;
     }
 }
 
