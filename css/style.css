@@ -187,7 +187,6 @@ body{
     position: absolute;
     bottom:40px;
     left: 20px;
-
 }
 .sec3-time{
     display: flex;
@@ -206,7 +205,6 @@ body{
 }
 .sec3-text{
     padding: 20px;
-
 }
 .sec3-div{
     max-width: 1200px;
@@ -216,7 +214,6 @@ body{
     margin: 0 auto;
   }
 .sec3-right-img{
-    max-width: 360px;
     width: 100%;
 }
 
@@ -272,7 +269,7 @@ input{
     padding: 80px;
     margin-top: 5px;
 }
-.page2-sec1{
+.page2-sec1-div{
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
@@ -300,12 +297,11 @@ input{
     display: flex;
     max-width: 1100px;
     width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 auto;
     margin-top: 40px;
     border-top: #dadcdc solid;
     border-bottom: #dadcdc solid;
-    /* padding: 30px; */
  }
 .user-div{
     max-width: 250px;
@@ -330,7 +326,10 @@ input{
     color: #A6ADB4;
     margin-top: 10px;
 }
-
+.page2-sec2-post{
+    display: flex;
+    justify-content: space-between;
+}
 /* page 2 section 3 */
 .page2-text{
     max-width: 720px;
@@ -358,6 +357,7 @@ input{
 /* footer */
 .footer-text{
     max-width: 378px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: #CBD0D3;
@@ -369,13 +369,14 @@ input{
     background-color: #A6ADB4;
 }
 .footer-div{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 60px 220px 60px 140px;
+    justify-content: space-evenly;
+    padding: 60px 0px 60px 0px;
 }
 .footer-ul2{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .email{
     max-width: 260px;
@@ -431,3 +432,5 @@ input{
     top:20px;
     left:10px;  
 }
+
+
