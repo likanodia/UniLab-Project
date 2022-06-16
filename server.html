@@ -26,7 +26,7 @@
             <div class="logo-div">
                 <a class="logo-text" href="index.html">logo</a>
             </div>
-            <nav class="nav-bar">
+            <nav class="nav-bar" id="nav-bar">
                 <ul class="ul-bar">
                     <li class="li"> <a class="nav-a" href="index.html">home</a></li>
                     <li class="li"> <a class="nav-a" href="info.html">discovery</a></li>
@@ -37,11 +37,22 @@
                     </li>
                 </ul>
             </nav>
+            <div class="menu-bar" id="menu-bar">
+                <div class="menu-item" id="menu-item1"></div>
+                <div class="menu-item" id="menu-item2"></div>
+                <div class="menu-item" id="menu-item3"></div>
+            </div>
         </header>
 
         <section  class="server-section">
-            <div>
-                
+            <div id="user_div" class="user-info">
+                <ul id="user_ul">
+        
+                </ul>
+            </div>
+            <div class="button-div">
+                <button  id="prev"> Load Previous Users </button>
+                <button class="button" id="next"> Load Next Users </button>
             </div>
         </section>
 
@@ -85,5 +96,8 @@
                 </div>
             </div>
         </footer>
+        <script src="script.js">
+
+        </script>
     </body>
 </html>
