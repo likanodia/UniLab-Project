@@ -91,6 +91,26 @@
     .sect2-div{
         flex-direction: column;
     }
+    .nav-icon,
+    .nav-contact,
+    .footer-menu{
+       display: block; 
+    }
+    .footer-menu{
+        background-color: #A6ADB4;
+        color: #e3e4e5;
+        line-height: 30px;
+        font-size: 11px;
+    }
+    .footer-menu-div{
+        display: flex;
+        padding: 20px;
+    }
+    .footer-menu-icons{
+        max-width: 150px;
+        width: 100%;
+        justify-content: space-between;
+    }
 }
 
 /* menu bar */

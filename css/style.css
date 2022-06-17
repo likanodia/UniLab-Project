@@ -433,6 +433,11 @@ input{
     top:20px;
     left:10px;  
 }
+.nav-icon,
+.nav-contact,
+.footer-menu{
+    display: none;
+}
 
 /* server */
 #user_ul{
@@ -445,17 +450,19 @@ input{
     display: flex;
     justify-content: center;
 }
-.button{
+.button-1{
     margin-left: 5%;
     border: none;
-    background-color: rgb(101, 152, 135);
-    color: rgb(255, 254, 252);
+    background-color: #FA6980;
+    color: #FFFFFF;
     height: 30px;
+    border-radius: 10px;
 }
 #prev{
     border: none;
-    background-color: rgb(101, 152, 135);
-    color: rgb(255, 254, 252);
+    background-color: #FA6980;
+    color: #FFFFFF;
+    border-radius:10px;
 }
 .p-text{
     margin-bottom: 5%;
@@ -471,12 +478,15 @@ input{
     height: 140px;
 }
 button:hover {
-    background-color: rgb(43, 112, 89)
+    background-color: #A6ADB4;
   }
 #prev:hover {
-    background-color: rgb(43, 112, 89)
+    background-color: #A6ADB4;
   }
 
 .p-Email{
-    color: rgb(43, 112, 89);
+    color: #FFFFFF;
+}
+.user_div{
+    margin-top: 50px;
 }
