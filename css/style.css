@@ -137,7 +137,12 @@ body{
     width: 100%;
     border-radius: 15px;
     background-color: white;
+    transition: 0.5s;
 }
+.sec2-post:hover{
+    box-shadow: 0px 5px 20px rgb(52, 52, 52);
+}
+
 .post-img{
     width: 100%;
 }
@@ -415,7 +420,7 @@ input{
 
 /* page3 server page*/
 .server-section{
-    height: 500px;
+    margin-bottom: 238px;
 }
 
 /* burger */
@@ -485,8 +490,15 @@ button:hover {
   }
 
 .p-Email{
-    color: #FFFFFF;
+    color: #57595a;;
 }
 .user_div{
     margin-top: 50px;
+}
+.user-img{
+    border: 5px solid  #d88593;;
+    object-fit: cover;
+}
+.numbers{
+    display: none;
 }

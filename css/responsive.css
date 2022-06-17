@@ -128,8 +128,8 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        padding: 30px;
         margin-left: 25px;
+        padding: 10px;
     }
     .nav-icon,
     .nav-contact,
@@ -155,5 +155,23 @@
     }
     .nav-a{
         display: flex;
+    }
+    .numbers{
+        display: block;
+        max-width: 230px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .menu-item.menuTwo{
+        display: none;
+    }
+    .menu-item.menuOne{
+        transform: rotate(-45deg) translate(-7px,3px);
+        transition: 0.3s linear;
+    }
+    .menu-item.menuThree{
+        transform: rotate(45deg) translate(-3px,1px);
+        transition: 0.3s linear;
+
     }
 }

@@ -10,4 +10,3 @@ menu.addEventListener('click',function(){
     menuItemTwo.classList.toggle('menuTwo');
     menuItemThree.classList.toggle('menuThree');
 });
-
