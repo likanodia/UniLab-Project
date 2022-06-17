@@ -34,7 +34,7 @@
         margin: 0 auto;
     }
 }
-@media(max-width:768px){
+@media(max-width:840px){
     .news-block{
         display: flex;
     }
@@ -53,10 +53,9 @@
     .footer-div{
         flex-direction: column;
     }
-
 }
 
-@media(max-width:768px){
+@media(max-width:840px){
     .sec3-right-div{
         display: flex;
         flex-direction: row;
